@@ -1,0 +1,19 @@
+{
+  "name": "express-ts-typeorm-boilerplate",
+  "version": "1.0.0",
+  "description": "express-ts-typeorm-boilerplate",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjn0910/express-ts-typeorm-boilerplate.git"
+  },
+  "author": "sjn0910",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjn0910/express-ts-typeorm-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sjn0910/express-ts-typeorm-boilerplate#readme"
+}

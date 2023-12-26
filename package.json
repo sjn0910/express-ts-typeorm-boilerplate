@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sjn0910/express-ts-typeorm-boilerplate/issues"
   },
-  "homepage": "https://github.com/sjn0910/express-ts-typeorm-boilerplate#readme"
+  "homepage": "https://github.com/sjn0910/express-ts-typeorm-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

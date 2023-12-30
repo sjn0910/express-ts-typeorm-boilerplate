@@ -10,7 +10,7 @@ import {
 // 예시 entity입니다. 필요에 따라 수정하거나 삭제하셔도 됩니다.
 
 @Entity()
-export class User {
+export default class User {
   @PrimaryGeneratedColumn()
   id!: number;
 

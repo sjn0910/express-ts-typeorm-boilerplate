@@ -11,7 +11,7 @@ const AppDataSource = new DataSource({
   username: DB_USER,
   password: DB_PASSWORD,
   database: DB_NAME,
-  entities: [`${__dirname}/../entities/*.entity.ts`],
+  entities: [`${__dirname}/../entity/*.entity.ts`],
   namingStrategy: new SnakeNamingStrategy(),
   logging: true,
   synchronize: process.env.NODE_ENV === 'prod' ? false : true,

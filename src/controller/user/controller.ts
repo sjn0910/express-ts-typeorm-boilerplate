@@ -20,6 +20,18 @@ export const getUserById: RequestHandler = async (req, res, next) => {
   }
 };
 
+export const getUsersByAge: RequestHandler = async (req, res, next) => {
+  try {
+    const age = Number(req.params.age);
+
+    const users = await UserService.getUsersByAge(age);
+
+    res.json(users);
+  } catch (error) {
+    next(error);
+  }
+};
+
 export const createUser: RequestHandler = async (req, res, next) => {
   try {
     const { firstName, lastName, age } = req.body as CreateUserInput;

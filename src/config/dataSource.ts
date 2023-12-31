@@ -13,7 +13,7 @@ const AppDataSource = new DataSource({
   database: DB_NAME,
   entities: [`${__dirname}/../entity/*.entity.ts`],
   namingStrategy: new SnakeNamingStrategy(),
-  logging: true,
+  logging: false, // sql query를 console에 출력하고 싶을 때는 true로 전환
   synchronize: process.env.NODE_ENV === 'prod' ? false : true,
   migrations: [],
   subscribers: [],
